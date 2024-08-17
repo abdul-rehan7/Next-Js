@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link{
+    position: relative;
+    padding: 3px;
+    transition-duration: 0.2s;
+  }
+  .link:hover{
+    color: aqua;
+  }
+  .link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: aqua;
+    height: 2px;
+    width: 0;
+  }
+  .link:hover::after{
+    width: 100%;
+    transition-duration: 0.5s;
+  }
