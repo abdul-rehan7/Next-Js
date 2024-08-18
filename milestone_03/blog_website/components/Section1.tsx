@@ -40,7 +40,7 @@ function Slide() {
             Revolution of Education due to Rapid Changes in Technology
           </Link>
         </div>
-        <p className="text-gray-500 py-3">
+        <p className="text-gray-500 py-3 text-justify">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sed
           ipsam explicabo quis repellendus vero nobis dolore repellat fugit

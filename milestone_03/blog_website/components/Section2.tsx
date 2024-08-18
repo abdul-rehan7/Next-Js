@@ -44,7 +44,7 @@ function Post({ id, title, body, img }) {
           <Image src={img} alt="image" width={400} height={400} />
         </Link>
       </div>
-      <div className="info flex flex-col p-2">
+      <div className="info flex space-y-2 flex-col p-2">
         <div className="cat w-full">
           <Link
             className="text-teal-500 hover:text-teal-700"
@@ -60,7 +60,7 @@ function Post({ id, title, body, img }) {
           </Link>
         </div>
         <h1 className="text-base font-bold w-full">{title}</h1>
-        <p className="text-gray-500">{body}</p>
+        <p className="text-gray-500 text-justify lg:text-base text-sm">{body}</p>
       </div>
     </div>
   );
