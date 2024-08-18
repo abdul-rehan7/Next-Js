@@ -39,12 +39,12 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-0 right-0 bg-green-500 z-[100] p-2 px-4 text-white h-full flex  w-[50%] transition-transform duration-500 ${
+        className={`fixed top-0 right-0 backdrop-blur-sm bg-[#47a9ffa4] z-[100] p-2 px-4 text-white h-full flex  w-[50%] transition-transform duration-500 ${
           visible ? "translate-x-full" : " translate-x-0"
         }`}
       >
         <div className="flex flex-col space-y-6">
-          <IoClose className="text-3xl " onClick={() => setVisible(true)} />
+          <IoClose className="cursor-pointer text-3xl " onClick={() => setVisible(true)} />
 
           <div className="flex flex-col space-y-4"></div>
           <a className="link w-[10rem]" href="">

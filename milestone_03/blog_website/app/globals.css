@@ -8,14 +8,14 @@
     transition-duration: 0.2s;
   }
   .link:hover{
-    color: aqua;
+    color: black;
   }
   .link::after{
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
-    background: aqua;
+    background: black;
     height: 2px;
     width: 0;
   }
