@@ -23,19 +23,19 @@ export default function Section2() {
       {/* Grid columns */}
       <div className="grid grid-rows-2 lg:grid-cols-3 gap-12">
         {data.map((post) => (
-          <Post key={post.id} title={post.title} body={post.body} />
+          <Post key={post.id} img={post.img} title={post.title} body={post.body} />
         ))}
       </div>
     </div>
   );
 }
 
-function Post({ title, body }) {
+function Post({ title, body,img }) {
   return (
     <div className="item">
       <div className="image">
         <Link href={"/"}>
-          <Image src="/imgs/img1.jpg" alt="image" width={400} height={200} />
+          <Image src={img} alt="image" width={400} height={400} />
         </Link>
       </div>
       <div className="info flex flex-col p-2">
