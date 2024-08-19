@@ -2,7 +2,7 @@ import React from "react";
 
 export default async function Page({ params }) {
   const { title } = params;
-  const fetchData = await fetch(`http://localhost:3000/api/posts/${title}`);
+  const fetchData = await fetch(`/api/posts/${title}`);
   const res = await fetchData.json();
   return (
     <div className="text-center flex flex-col items-center py-10 space-y-7 lg:px-[15%] px-[7%] p-4">
