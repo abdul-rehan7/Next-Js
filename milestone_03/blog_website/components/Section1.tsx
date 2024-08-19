@@ -15,7 +15,7 @@ export default function Section1() {
   }
 
   return (
-    <div className="mx-auto lg:px-20 py-10 p-4 ">
+    <div className=" container-1 mx-auto lg:px-20 py-10 p-4">
       <div className="py-10">
         <h1 className="text-4xl font-bold text-center py-2">Trending</h1>
         <p className=" text-center text-gray-400 ">You Can Scroll The posts</p>
