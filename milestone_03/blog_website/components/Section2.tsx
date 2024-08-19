@@ -21,7 +21,12 @@ export default function Section2() {
       {/* Grid columns */}
       <div className="grid grid-rows-2 lg:grid-cols-3 gap-12">
         {data.map((post) => (
-          <Post img={post.img} key={post.id} title={post.title} body={post.body} />
+          <Post
+            img={post.img}
+            key={post.id}
+            title={post.title}
+            body={post.body}
+          />
         ))}
       </div>
     </div>
@@ -29,6 +34,15 @@ export default function Section2() {
 }
 
 function Post({ img, title, body }) {
+  const LimitedText = ({ text, maxLength }) => {
+    const truncatedText =
+      text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
+    return (
+      <p className="text-gray-500 text-justify lg:text-base text-sm">
+        {truncatedText}
+      </p>
+    );
+  };
   return (
     <div className="item">
       <div className="image hover:p-2 transition-all ">
@@ -51,12 +65,12 @@ function Post({ img, title, body }) {
             Aug 17, 2024
           </Link>
         </div>
-        <h1 className="text-base font-bold w-full">{title}</h1>
-        <p className="text-gray-500 text-justify lg:text-base text-sm">
-          {body}
-        </p>
+        <h1 className="text-base font-bold w-full ">
+          <Link href={`/posts/${title}`}>{title}</Link>
+        </h1>
+
+        <LimitedText text={body} maxLength={100} />
       </div>
     </div>
   );
 }
-
