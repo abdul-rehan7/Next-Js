@@ -17,7 +17,6 @@
 .card{
   scroll-snap-align: center;
   box-sizing: border-box;
-  padding: 20px 30px;
   flex-shrink: 0;
   width: 90vw;
   border-radius: 20px;

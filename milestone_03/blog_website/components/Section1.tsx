@@ -48,13 +48,13 @@ function Post({ img, title, body }) {
   };
   return (
     <div className="card">
-      <div className="flex text-left">
+      <div className="flex flex-col lg:flex-row text-left">
         <div className="image transition-all ">
           <Link href={`/posts/${title}`}>
             <Image src={`${img}`} alt="image" width={900} height={900} />
           </Link>
         </div>
-        <div className="info flex space-y-4 flex-col py-4 px-4 w-[80%]">
+        <div className="info flex space-y-4 flex-col py-4 lg:px-4 lg:w-[80%] w-[100%]"> 
           <div className="cat ">
             <Link
               className="text-teal-500 hover:text-teal-700"
@@ -69,7 +69,7 @@ function Post({ img, title, body }) {
               Aug 17, 2024
             </Link>
           </div>
-          <h1 className="lg:text-3xl text-lg  font-bold w-full ">
+          <h1 className="lg:text-3xl text-xl  font-bold w-full ">
             <Link href={`/posts/${title}`}>{title}</Link>
           </h1>
 
