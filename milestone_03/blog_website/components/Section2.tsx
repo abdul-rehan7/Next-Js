@@ -59,3 +59,4 @@ function Post({ img, title, body }) {
     </div>
   );
 }
+
