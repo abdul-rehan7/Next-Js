@@ -17,12 +17,12 @@ export default function Section1() {
   return (
     <div className=" container-1 mx-auto lg:px-20 py-10 p-4">
       <div className="py-10">
-        <h1 className="text-4xl font-bold text-center py-2">Trending</h1>
+        <h1 className="text-4xl font-bold text-center py-2">Popular Picks</h1>
         <p className=" text-center text-gray-400 ">You Can Scroll The posts</p>
       </div>
 
       {/* Grid columns */}
-      <div className="wrapper">
+      <div className="wrapper ">
         {data.map((post) => (
           <Post
             img={post.img}
@@ -50,8 +50,8 @@ function Post({ img, title, body }) {
     <div className="card">
       <div className="flex flex-col lg:flex-row text-left">
         <div className="image transition-all ">
-          <Link href={`/posts/${title}`}>
-            <Image src={`${img}`} alt="image" width={900} height={900} />
+          <Link  href={`/posts/${title}`}>
+            <Image className="hover:p-2 transition-all" src={`${img}`} alt="image" width={900} height={900} />
           </Link>
         </div>
         <div className="info flex space-y-4 flex-col py-4 lg:px-4 lg:w-[80%] w-[100%]"> 

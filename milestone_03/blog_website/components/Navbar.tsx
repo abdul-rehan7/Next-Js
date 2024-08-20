@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-gray-200 px-7 py-4 flex justify-between items-center w-full">
-        <div className="font-bold text-2xl">BLOGGER.CO</div>
+        <div className="font-bold text-2xl">DevInsight</div>
         <div>
           <Link
             href={"/"}
