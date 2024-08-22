@@ -32,7 +32,7 @@ export function Imageslider() {
         </motion.p>
         <motion.p className="font-medium text-xs md:text-3xl text-white text-center  lg:py-4 py-2">
           Upgrade Your wardrobe with sleek and stylish Apparels and Top Notch
-          Shoes
+          Shoes.
         </motion.p>
         <button className=" border group border-white hover:border-mymain hover:rounded-full transition-all px-4 py-2 text-white mx-auto text-center  rounded-sm relative lg:mt-4 mt-2">
           <span className="flex items-center lg:text-base text-xs">
