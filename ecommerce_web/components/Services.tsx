@@ -36,13 +36,13 @@ export default function Services() {
         {servicesData.map((item) => (
           <div
             key={item.id}
-            className="space-y-1 flex lg:w-[20rem] w-[15rem] flex-col justify-center lg:py-4 self-center items-center text-center"
+            className="group space-y-1 cursor-pointer flex lg:w-[20rem] w-[15rem] flex-col justify-center lg:py-4 self-center items-center text-center "
           >
-            <div className="lg:text-7xl text-6xl">{item.img}</div>
-            <div className="font-semibold lg:text-xl text-base">
+            <div className="lg:text-7xl text-6xl ">{item.img}</div>
+            <div className="font-semibold lg:text-xl text-base group-hover:text-mymain transition-colors">
               {item.name}
             </div>
-            <div className="lg:text-base text-xs">{item.desc}</div>
+            <div className="lg:text-base text-xs transition-colors">{item.desc}</div>
           </div>
         ))}
       </div>

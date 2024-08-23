@@ -78,7 +78,7 @@ export default function Navbar() {
                   <Link href={"#"}>Accessories/Jewelery</Link>
                 </li>
                 <li>
-                  <Link href={"#"}>Shoes</Link>
+                  <Link  href={"#"}>Shoes</Link>
                 </li>
               </ul>
             </details>
@@ -96,7 +96,7 @@ export default function Navbar() {
           <IoCart />
 
           <div className=" absolute top-0 right-0 count p-1 h-5 w-5 bg-myred text-white rounded-full text-xs flex justify-center items-center">
-            20
+            0
           </div>
         </Link>
       </div>

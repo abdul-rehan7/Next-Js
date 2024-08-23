@@ -10,7 +10,7 @@ import {
 export default function Footer() {
   return (
     <div>
-      <footer className="footer text-base-content p-10">
+      <footer className="footer text-base-content p-10 border-t border-mywhite">
         <nav>
           <h6 className="uppercase font-bold text-mymain mb-[0.5rem] ">Services</h6>
           <a className="link link-hover">Branding</a>
