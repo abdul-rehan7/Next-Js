@@ -1,6 +1,7 @@
 import React from "react";
 import { IoCart } from "react-icons/io5";
 import Link from "next/link";
+import Image from "next/image";
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -55,8 +56,8 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <Link href={"/"} className="py-2 px-4 font-semibold text-xl">
-          ShopSavvy
+        <Link href={"/"} className=" flex items-center py-2 px-4 font-semibold text-xl">
+        <Image width={30} height={30} src="/logo.png" alt="logo" className="mx-2 hidden lg:block" />ShopSavvy 
         </Link>
       </div>
 

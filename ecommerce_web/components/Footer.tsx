@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaShoppingBag,
 } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -38,10 +39,10 @@ export default function Footer() {
       </footer>
       <footer className="footer text-base-content border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center ">
-          <FaShoppingBag className="text-2xl" />
+        <Image width={40} height={40} src="/logo.png" alt="logo" />
 
-          <p>
-            <img src="/logo.png" alt="" /> ShopSavvy.com
+          <p className="flex">
+            ShopSavvy.com
             <br />
             Shop Smart, Save Big
           </p>
