@@ -12,14 +12,18 @@ export default function Footer() {
     <div>
       <footer className="footer text-base-content p-10 border-t border-mywhite">
         <nav>
-          <h6 className="uppercase font-bold text-mymain mb-[0.5rem] ">Services</h6>
+          <h6 className="uppercase font-bold text-mymain mb-[0.5rem] ">
+            Services
+          </h6>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>
         </nav>
         <nav>
-          <h6 className="uppercase font-bold text-mymain mb-[0.5rem]">Company</h6>
+          <h6 className="uppercase font-bold text-mymain mb-[0.5rem]">
+            Company
+          </h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
@@ -37,7 +41,7 @@ export default function Footer() {
           <FaShoppingBag className="text-2xl" />
 
           <p>
-            ShopSavvy.com
+            <img src="/logo.png" alt="" /> ShopSavvy.com
             <br />
             Shop Smart, Save Big
           </p>
