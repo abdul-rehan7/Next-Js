@@ -14,7 +14,7 @@ export default function Categories() {
       <div className="content">
         <div className=" grid lg:grid-cols-4 grid-cols-1 sm:grid-cols-2 gap-7 ">
           {categories.map((item) => (
-            <div className="relative group cursor-pointer overflow-hidden">
+            <div key={item.name} className="relative group cursor-pointer overflow-hidden">
               <Image
                 className="hover:scale-110 h-[16rem] transition-all "
                 src={item.img}
