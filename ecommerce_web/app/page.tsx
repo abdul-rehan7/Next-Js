@@ -1,3 +1,4 @@
+import Categories from "@/components/Categories";
 import Promotion from "@/components/Promotion";
 import Services from "@/components/Services";
 import { Imageslider } from "@/components/Slider";
@@ -9,6 +10,7 @@ export default function Home() {
       <Imageslider/>
       <Services/>
       <Promotion/>
+      <Categories/>
     </main>
   );
 }

@@ -25,7 +25,7 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100  border-black  z-[1] mt-3 w-52 p-2 shadow-white shadow-sm"
           >
             <li>
               <Link href={"/"}>Home</Link>
@@ -55,7 +55,9 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <Link href={'/'} className="py-2 px-4 font-semibold text-xl">ShopSavvy</Link>
+        <Link href={"/"} className="py-2 px-4 font-semibold text-xl">
+          ShopSavvy
+        </Link>
       </div>
 
       {/* ================ DESKTOP VIEW ================ */}
@@ -67,18 +69,26 @@ export default function Navbar() {
           <li>
             <details className="z-[100]">
               <summary>Women</summary>
-              <ul className="p-2">
-                <li> 
-                  <Link href={"#"}>Tops</Link>
+              <ul className="p-2 rounded-none">
+                <li>
+                  <Link className="rounded-none" href={"#"}>
+                    Tops
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"#"}>Pants</Link>
+                  <Link className="rounded-none" href={"#"}>
+                    Pants
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"#"}>Accessories/Jewelery</Link>
+                  <Link className="rounded-none" href={"#"}>
+                    Accessories/Jewelery
+                  </Link>
                 </li>
                 <li>
-                  <Link  href={"#"}>Shoes</Link>
+                  <Link className="rounded-none" href={"#"}>
+                    Shoes
+                  </Link>
                 </li>
               </ul>
             </details>

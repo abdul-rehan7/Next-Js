@@ -24,7 +24,7 @@ export default function Services() {
     },
   ];
   return (
-    <div>
+    <div className="my-7">
       <div className="flex flex-col justify-center items-center p-7">
         <span className="heading text-center font-bold lg:text-4xl text-2xl  ">
           Services
