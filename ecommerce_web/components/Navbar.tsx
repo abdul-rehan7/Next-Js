@@ -29,30 +29,30 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100  border-black  z-[1] mt-3 w-52 p-2 shadow-white shadow-sm"
           >
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link href={"/contact"}>Home</Link>
             </li>
             <li>
-              <Link href={""}>Women</Link>
+              <Link href={"/women"}>Women</Link>
               <ul className="p-2">
                 <li>
-                  <Link href={""}>Tops</Link>
+                  <Link href={"/tops"}>Tops</Link>
                 </li>
                 <li>
-                  <Link href={""}>Pants</Link>
+                  <Link href={"/pants"}>Pants</Link>
                 </li>
                 <li>
-                  <Link href={""}>Accessories/Jewelery</Link>
+                  <Link href={"/accessories"}>Accessories/Jewelery</Link>
                 </li>
                 <li>
-                  <Link href={""}>Shoes</Link>
+                  <Link href={"/shoes"}>Shoes</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a>About</a>
+              <Link href={'/about'}>About</Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link href={'/contact'}>Contact</Link>
             </li>
           </ul>
         </div>
@@ -72,22 +72,22 @@ export default function Navbar() {
               <summary>Women</summary>
               <ul className="p-2 rounded-none">
                 <li>
-                  <Link className="rounded-none" href={"#"}>
+                  <Link className="rounded-none" href={"/tops"}>
                     Tops
                   </Link>
                 </li>
                 <li>
-                  <Link className="rounded-none" href={"#"}>
+                  <Link className="rounded-none" href={"/pants"}>
                     Pants
                   </Link>
                 </li>
                 <li>
-                  <Link className="rounded-none" href={"#"}>
+                  <Link className="rounded-none" href={"/accessories"}>
                     Accessories/Jewelery
                   </Link>
                 </li>
                 <li>
-                  <Link className="rounded-none" href={"#"}>
+                  <Link className="rounded-none" href={"/shoes"}>
                     Shoes
                   </Link>
                 </li>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export default function Categories() {
   return (
@@ -14,16 +15,23 @@ export default function Categories() {
       <div className="content">
         <div className=" grid lg:grid-cols-4 grid-cols-1 sm:grid-cols-2 gap-7 ">
           {categories.map((item) => (
-            <div key={item.name} className="relative group cursor-pointer overflow-hidden">
-              <Image
-                className="hover:scale-110 h-[16rem] transition-all "
-                src={item.img}
-                alt=""
-                height={150}
-                width={250}
-              />
-              <div className="name absolute text-white bg-[#0000005a] w-full group-hover:bottom-0 text-center text-2xl font-bold uppercase  transition-all lg:-bottom-24 bottom-0 ">{item.name}</div>
-            </div>
+            <Link href={`/${item.category}`}>
+              <div
+                key={item.name}
+                className="relative group cursor-pointer overflow-hidden"
+              >
+                <Image
+                  className="hover:scale-110 h-[16rem] transition-all "
+                  src={item.img}
+                  alt=""
+                  height={150}
+                  width={250}
+                />
+                <div className="name absolute text-white bg-[#0000005a] w-full group-hover:bottom-0 text-center text-2xl font-bold uppercase  transition-all lg:-bottom-24 bottom-0 ">
+                  {item.name}
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -31,21 +39,25 @@ export default function Categories() {
   );
 }
 
-const categories = [
+export const categories = [
   {
     name: "Tops",
     img: "/cat/top.jpg",
+    category: "tops",
   },
   {
     name: "Pants",
     img: "/cat/pant.jpg",
+    category: "pants",
   },
   {
     name: "Accessories",
     img: "/cat/jewel.jpg",
+    category: "accessories",
   },
   {
     name: "Shoes",
     img: "/cat/shoe.jpg",
+    category: "shoes",
   },
 ];
