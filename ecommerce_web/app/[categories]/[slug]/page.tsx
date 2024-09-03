@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
-export default function Item() {
+export default async function Page({ params }) {
+  const { name } = params;
+  const fetchData = await fetch(`http://localhost:3000/api/item/${name}`);
+  const res = await fetchData.json();
+
+  console.log("API Response:", res);
+
   return (
-    <div>
-      Item is here
+    <div className="text-center flex flex-col items-center py-10 space-y-7 lg:px-[15%] px-[7%] p-4">
+      <h1 className="lg:text-4xl text-2xl font-bold">{res.item[0].name}</h1>
+      <img src={res.item[0].img} className="lg:w-[70vw]  lg:h-[80vh] w-full h-[40vh]" alt="" />
+      <p className="lg:text-base text-sm text-justify text-gray-500">{res.item[0].desc}</p>
     </div>
-  )
+  );
 }
