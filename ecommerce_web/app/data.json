@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "name": "shirt",
     "category": "tops",
     "img": "/cat/top.jpg",
@@ -7,6 +8,7 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":2,
     "name": "shirtbariwali",
     "category": "tops",
     "img": "/cat/top.jpg",
@@ -14,6 +16,7 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":3,
     "name": "jeans",
     "category": "bottom",
     "img": "/cat/pant.jpg",
@@ -21,6 +24,7 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":4,
     "name": "jeansman",
     "category": "bottom",
     "img": "/cat/pant.jpg",
@@ -28,6 +32,7 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":5,
     "name": "jeanser",
     "category": "bottom",
     "img": "/cat/pant.jpg",
@@ -35,13 +40,15 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
-    "name": "shoes",
+    "id":6,
+    "name": "socks",
     "category": "bottom",
     "img": "/cat/shoe.jpg",
     "price": 200, 
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":7,
     "name": "watch",
     "category": "accessories",
     "img": "/cat/jewel.jpg",
@@ -49,6 +56,7 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":8,
     "name": "ring",
     "category": "accessories",
     "img": "/cat/jewel.jpg",
@@ -56,8 +64,25 @@
     "desc": "Perfect fit for modern and sleek design"
   },
   {
+    "id":9,
     "name": "band",
     "category": "accessories",
+    "img": "/cat/jewel.jpg",
+    "price": 200, 
+    "desc": "Perfect fit for modern and sleek design"
+  },
+  {
+    "id":10,
+    "name": "Joggers",
+    "category": "shoes",
+    "img": "/cat/jewel.jpg",
+    "price": 200, 
+    "desc": "Perfect fit for modern and sleek design"
+  },
+  {
+    "id":11,
+    "name": "Sneekers",
+    "category": "shoes",
     "img": "/cat/jewel.jpg",
     "price": 200, 
     "desc": "Perfect fit for modern and sleek design"

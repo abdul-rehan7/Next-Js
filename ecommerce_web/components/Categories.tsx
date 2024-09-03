@@ -41,22 +41,22 @@ export default function Categories() {
 
 export const categories = [
   {
-    name: "Tops",
+    name: "top",
     img: "/cat/top.jpg",
     category: "tops",
   },
   {
-    name: "Pants",
+    name: "bottom",
     img: "/cat/pant.jpg",
-    category: "pants",
+    category: "bottom",
   },
   {
-    name: "Accessories",
+    name: "accessories",
     img: "/cat/jewel.jpg",
     category: "accessories",
   },
   {
-    name: "Shoes",
+    name: "shoes",
     img: "/cat/shoe.jpg",
     category: "shoes",
   },
