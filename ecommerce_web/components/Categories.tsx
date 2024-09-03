@@ -15,7 +15,7 @@ export default function Categories() {
       <div className="content">
         <div className=" grid lg:grid-cols-4 grid-cols-1 sm:grid-cols-2 gap-7 ">
           {categories.map((item) => (
-            <Link href={`/${item.category}`}>
+            <Link key={item.name} href={`/${item.category}`}>
               <div
                 key={item.name}
                 className="relative group cursor-pointer overflow-hidden"
