@@ -4,8 +4,8 @@
     "name": "t-shirt",
     "category": "tops",
     "price": 19.99,
-    "img": "/cat/pant.jpg",
-    "desc": "comfortable cotton t-shirt"
+    "img": "/tops/t-shirt.jpg",
+    "desc": "comfortable cotton t-shirt is here"
   },
   {
     "id": 2,
