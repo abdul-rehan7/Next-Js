@@ -5,7 +5,7 @@ export default async function Page({ params }) {
   console.log(params); 
   
   const fetchData = await fetch(
-    `http://localhost:3000/api/item/${params.slug}` 
+    `http://shop-savvvy.vercel.app/api/item/${params.slug}` 
   );
   const res = await fetchData.json();
 
@@ -20,7 +20,7 @@ export default async function Page({ params }) {
         {res.item[0].price}
       </div>
 
-      <p className="lg:text-base text-sm text-justify text-gray-500"></p>
+      <p className="lg:text-base text-sm text-justify text-gray-500">{res.item[0].desc}</p>
     </div>
   );
 }
