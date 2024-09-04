@@ -38,7 +38,7 @@ export default function Navbar() {
                   <Link href={"/tops"}>Tops</Link>
                 </li>
                 <li>
-                  <Link href={"/pants"}>Pants</Link>
+                  <Link href={"/bottom"}>Pants</Link>
                 </li>
                 <li>
                   <Link href={"/accessories"}>Accessories/Jewelery</Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="rounded-none" href={"/pants"}>
+                  <Link className="rounded-none" href={"/bottom"}>
                     Pants
                   </Link>
                 </li>

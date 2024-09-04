@@ -1,90 +1,194 @@
 [
   {
-    "id":1,
-    "name": "newshirt",
+    "id": "1",
+    "name": "t-shirt",
     "category": "tops",
-    "img": "/cat/top.jpg",
-    "price": 400, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "19.99",
+    "img": "/cat/pant.jpg",
+    "desc": "comfortable cotton t-shirt"
   },
   {
-    "id":2,
-    "name": "shirtbariwali",
+    "id": "2",
+    "name": "tank top",
     "category": "tops",
-    "img": "/cat/top.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "15.99",
+    "img": "/cat/pant.jpg",
+    "desc": "breathable tank top for summer"
   },
   {
-    "id":3,
+    "id": "3",
+    "name": "button-up shirt",
+    "category": "tops",
+    "price": "29.99",
+    "img": "/cat/pant.jpg",
+    "desc": "formal button-up shirt"
+  },
+  {
+    "id": "4",
+    "name": "sweater",
+    "category": "tops",
+    "price": "39.99",
+    "img": "/cat/pant.jpg",
+    "desc": "warm and cozy sweater"
+  },
+  {
+    "id": "5",
+    "name": "hoodie",
+    "category": "tops",
+    "price": "49.99",
+    "img": "/cat/pant.jpg",
+    "desc": "comfortable hoodie with pockets"
+  },
+  {
+    "id": "6",
+    "name": "blouse",
+    "category": "tops",
+    "price": "34.99",
+    "img": "/cat/pant.jpg",
+    "desc": "elegant blouse for formal events"
+  },
+  {
+    "id": "7",
     "name": "jeans",
     "category": "bottom",
+    "price": "39.99",
     "img": "/cat/pant.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "desc": "classic blue jeans"
   },
   {
-    "id":4,
-    "name": "parashoot",
+    "id": "8",
+    "name": "shorts",
     "category": "bottom",
+    "price": "24.99",
     "img": "/cat/pant.jpg",
-    "price": 600, 
-    "desc": "Perfect fit for modern and sleek design"
+    "desc": "casual shorts for summer"
   },
   {
-    "id":5,
-    "name": "jeanser",
+    "id": "9",
+    "name": "skirt",
     "category": "bottom",
+    "price": "29.99",
     "img": "/cat/pant.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "desc": "floral skirt"
   },
   {
-    "id":6,
-    "name": "socks",
+    "id": "10",
+    "name": "leggings",
     "category": "bottom",
-    "img": "/cat/shoe.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "19.99",
+    "img": "/cat/pant.jpg",
+    "desc": "stretchy and comfortable leggings"
   },
   {
-    "id":7,
+    "id": "11",
+    "name": "cargo pants",
+    "category": "bottom",
+    "price": "44.99",
+    "img": "/cat/pant.jpg",
+    "desc": "durable cargo pants"
+  },
+  {
+    "id": "12",
+    "name": "chinos",
+    "category": "bottom",
+    "price": "39.99",
+    "img": "/cat/pant.jpg",
+    "desc": "smart chinos for casual wear"
+  },
+  {
+    "id": "13",
     "name": "watch",
     "category": "accessories",
-    "img": "/cat/jewel.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "89.99",
+    "img": "/cat/pant.jpg",
+    "desc": "stylish wristwatch"
   },
   {
-    "id":8,
-    "name": "ring",
+    "id": "14",
+    "name": "sunglasses",
     "category": "accessories",
-    "img": "/cat/jewel.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "29.99",
+    "img": "/cat/pant.jpg",
+    "desc": "uv-protected sunglasses"
   },
   {
-    "id":9,
-    "name": "band",
+    "id": "15",
+    "name": "necklace",
     "category": "accessories",
-    "img": "/cat/jewel.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "49.99",
+    "img": "/cat/pant.jpg",
+    "desc": "elegant gold necklace"
   },
   {
-    "id":10,
-    "name": "joggers",
-    "category": "shoes",
-    "img": "/cat/jewel.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "id": "16",
+    "name": "bracelet",
+    "category": "accessories",
+    "price": "19.99",
+    "img": "/cat/pant.jpg",
+    "desc": "fashionable bracelet"
   },
   {
-    "id":11,
-    "name": "sneekers",
+    "id": "17",
+    "name": "hat",
+    "category": "accessories",
+    "price": "14.99",
+    "img": "/cat/pant.jpg",
+    "desc": "stylish baseball cap"
+  },
+  {
+    "id": "18",
+    "name": "scarf",
+    "category": "accessories",
+    "price": "24.99",
+    "img": "/cat/pant.jpg",
+    "desc": "warm winter scarf"
+  },
+  {
+    "id": "19",
+    "name": "sneakers",
     "category": "shoes",
-    "img": "/cat/jewel.jpg",
-    "price": 200, 
-    "desc": "Perfect fit for modern and sleek design"
+    "price": "59.99",
+    "img": "/cat/pant.jpg",
+    "desc": "comfortable sneakers for everyday wear"
+  },
+  {
+    "id": "20",
+    "name": "boots",
+    "category": "shoes",
+    "price": "89.99",
+    "img": "/cat/pant.jpg",
+    "desc": "durable and stylish boots"
+  },
+  {
+    "id": "21",
+    "name": "loafers",
+    "category": "shoes",
+    "price": "69.99",
+    "img": "/cat/pant.jpg",
+    "desc": "classic loafers for formal occasions"
+  },
+  {
+    "id": "22",
+    "name": "sandals",
+    "category": "shoes",
+    "price": "39.99",
+    "img": "/cat/pant.jpg",
+    "desc": "casual sandals for summer"
+  },
+  {
+    "id": "23",
+    "name": "flats",
+    "category": "shoes",
+    "price": "49.99",
+    "img": "/cat/pant.jpg",
+    "desc": "comfortable ballet flats"
+  },
+  {
+    "id": "24",
+    "name": "high heels",
+    "category": "shoes",
+    "price": "79.99",
+    "img": "/cat/pant.jpg",
+    "desc": "elegant high heels"
   }
 ]

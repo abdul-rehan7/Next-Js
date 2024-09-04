@@ -5,7 +5,8 @@ export default async function Page({ params }) {
   console.log(params); 
   
   const fetchData = await fetch(
-    `http://shop-savvvy.vercel.app/api/item/${params.slug}` 
+    // `http://shop-savvvy.vercel.app/api/item/${params.slug}` 
+    `http://localhost:3000/api/item/${params.slug}` 
   );
   const res = await fetchData.json();
 
