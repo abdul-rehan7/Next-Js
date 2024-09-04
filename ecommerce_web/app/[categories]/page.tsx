@@ -7,7 +7,7 @@ export default async function Page({ params }) {
 
   // Fetch data based on category from the API
   const fetchData = await fetch(
-    `http://shop-savvvy.vercel.app/api/category/${params.categories}` 
+    `https://shop-savvvy.vercel.app/api/category/${params.categories}` 
     // `http://localhost:3000/api/category/${params.categories}` 
   );
   const res = await fetchData.json();
