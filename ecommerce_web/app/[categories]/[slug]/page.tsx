@@ -2,10 +2,11 @@ import React from "react";
 
 export default async function Page({ params }) {
   const { slug } = params.slug; // Destructure to get 'categories'
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   console.log(params); 
   
   const fetchData = await fetch(
-    `http://shop-savvvy.vercel.app/api/item/${params.slug}` 
+    `${apiUrl}/api/item/${params.slug}` 
     // `http://localhost:3000/api/item/${params.slug}` 
   );
   const res = await fetchData.json();
