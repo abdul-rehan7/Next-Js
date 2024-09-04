@@ -9,11 +9,9 @@ export default async function Page({ params }) {
 
   // Fetch data based on category from the API
   const fetchData = await fetch(`${apiUrl}/api/category/${categories}`, {
-    headers: {
-      'Cache-Control': 'no-store'
-    }
+    cache: "no-store",
   });
-  
+
   const res = await fetchData.json();
 
   console.log("API Response:", res);
@@ -25,7 +23,7 @@ export default async function Page({ params }) {
       </h1>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-        {res.map((item) => (
+        {res.item.map((item) => (
           <Link href={`${apiUrl}/item/${item.name}`} key={item.id}>
             <div className="border border-gray-300 p-4">
               <img className="h-[16rem] w-[16rem]" src={item.img} alt="" />

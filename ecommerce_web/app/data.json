@@ -5,14 +5,14 @@
     "category": "tops",
     "price": 19.99,
     "img": "/tops/t-shirt.jpg",
-    "desc": "comfortable cotton t-shirt  is not here"
+    "desc": "comfortable cotton t-shirt"
   },
   {
     "id": 2,
     "name": "tank top",
     "category": "tops",
     "price": 15.99,
-    "img": "/cat/pant.jpg",
+    "img": "/tops/tank-top.jpg",
     "desc": "breathable tank top for summer"
   },
   {
@@ -20,7 +20,7 @@
     "name": "button-up shirt",
     "category": "tops",
     "price": 29.99,
-    "img": "/cat/pant.jpg",
+    "img": "/tops/button-up.jpg",
     "desc": "formal button-up shirt"
   },
   {
@@ -28,7 +28,7 @@
     "name": "sweater",
     "category": "tops",
     "price": 39.99,
-    "img": "/cat/pant.jpg",
+    "img": "/tops/sweater.jpg",
     "desc": "warm and cozy sweater"
   },
   {
@@ -36,15 +36,15 @@
     "name": "hoodie",
     "category": "tops",
     "price": 49.99,
-    "img": "/cat/pant.jpg",
+    "img": "/tops/hoodie.jpg",
     "desc": "comfortable hoodie with pockets"
   },
   {
     "id": 6,
-    "name": "blouse",
+    "name": "turtle neck",
     "category": "tops",
     "price": 34.99,
-    "img": "/cat/pant.jpg",
+    "img": "/tops/turtle-neck.jpg",
     "desc": "elegant blouse for formal events"
   },
   {
@@ -52,7 +52,7 @@
     "name": "jeans",
     "category": "bottom",
     "price": 39.99,
-    "img": "/cat/pant.jpg",
+    "img": "/bottom/jeans.jpg",
     "desc": "classic blue jeans"
   },
   {
@@ -60,31 +60,31 @@
     "name": "shorts",
     "category": "bottom",
     "price": 24.99,
-    "img": "/cat/pant.jpg",
+    "img": "/bottom/shorts.jpg",
     "desc": "casual shorts for summer"
   },
   {
     "id": 9,
-    "name": "skirt",
+    "name": "formal pants",
     "category": "bottom",
     "price": 29.99,
-    "img": "/cat/pant.jpg",
-    "desc": "floral skirt"
+    "img": "/bottom/formal.jpg",
+    "desc": "Men office pants"
   },
   {
     "id": 10,
-    "name": "leggings",
+    "name": "trousers",
     "category": "bottom",
     "price": 19.99,
-    "img": "/cat/pant.jpg",
-    "desc": "stretchy and comfortable leggings"
+    "img": "/bottom/trousers.jpg",
+    "desc": "extra comfortable trousers"
   },
   {
     "id": 11,
     "name": "cargo pants",
     "category": "bottom",
     "price": 44.99,
-    "img": "/cat/pant.jpg",
+    "img": "/bottom/cargo.jpg",
     "desc": "durable cargo pants"
   },
   {
@@ -92,7 +92,7 @@
     "name": "chinos",
     "category": "bottom",
     "price": 39.99,
-    "img": "/cat/pant.jpg",
+    "img": "/bottom/chinos.jpg",
     "desc": "smart chinos for casual wear"
   },
   {
@@ -100,7 +100,7 @@
     "name": "watch",
     "category": "accessories",
     "price": 89.99,
-    "img": "/cat/pant.jpg",
+    "img": "/accessories/watch.jpg",
     "desc": "stylish wristwatch"
   },
   {
@@ -108,31 +108,31 @@
     "name": "sunglasses",
     "category": "accessories",
     "price": 29.99,
-    "img": "/cat/pant.jpg",
+    "img": "/accessories/glasses.jpg",
     "desc": "uv-protected sunglasses"
   },
   {
     "id": 15,
-    "name": "necklace",
+    "name": "wallet",
     "category": "accessories",
     "price": 49.99,
-    "img": "/cat/pant.jpg",
-    "desc": "elegant gold necklace"
+    "img": "/accessories/wallet.jpg",
+    "desc": "premium leather wallet"
   },
   {
     "id": 16,
-    "name": "bracelet",
+    "name": "Ring",
     "category": "accessories",
     "price": 19.99,
-    "img": "/cat/pant.jpg",
-    "desc": "fashionable bracelet"
+    "img": "/accessories/ring.jpg",
+    "desc": "silver ring for men"
   },
   {
     "id": 17,
     "name": "hat",
     "category": "accessories",
     "price": 14.99,
-    "img": "/cat/pant.jpg",
+    "img": "/accessories/hat.jpg",
     "desc": "stylish baseball cap"
   },
   {
@@ -140,7 +140,7 @@
     "name": "scarf",
     "category": "accessories",
     "price": 24.99,
-    "img": "/cat/pant.jpg",
+    "img": "/accessories/scarf.jpg",
     "desc": "warm winter scarf"
   },
   {
@@ -148,7 +148,7 @@
     "name": "sneakers",
     "category": "shoes",
     "price": 59.99,
-    "img": "/cat/pant.jpg",
+    "img": "/shoes/sneakers.jpg",
     "desc": "comfortable sneakers for everyday wear"
   },
   {
@@ -156,7 +156,7 @@
     "name": "boots",
     "category": "shoes",
     "price": 89.99,
-    "img": "/cat/pant.jpg",
+    "img": "/shoes/boots.jpg",
     "desc": "durable and stylish boots"
   },
   {
@@ -164,7 +164,7 @@
     "name": "loafers",
     "category": "shoes",
     "price": 69.99,
-    "img": "/cat/pant.jpg",
+    "img": "/shoes/loafer.jpg",
     "desc": "classic loafers for formal occasions"
   },
   {
@@ -172,23 +172,23 @@
     "name": "sandals",
     "category": "shoes",
     "price": 39.99,
-    "img": "/cat/pant.jpg",
+    "img": "/shoes/sandals.jpg",
     "desc": "casual sandals for summer"
   },
   {
     "id": 23,
-    "name": "flats",
+    "name": "joggers",
     "category": "shoes",
     "price": 49.99,
-    "img": "/cat/pant.jpg",
-    "desc": "comfortable ballet flats"
+    "img": "/shoes/joggers.jpg",
+    "desc": "mens sports fashion"
   },
   {
     "id": 24,
-    "name": "high heels",
+    "name": "slippers",
     "category": "shoes",
     "price": 79.99,
-    "img": "/cat/pant.jpg",
-    "desc": "elegant high heels"
+    "img": "/shoes/slippers.jpg",
+    "desc": "most relaxed style of footwear"
   }
 ]
