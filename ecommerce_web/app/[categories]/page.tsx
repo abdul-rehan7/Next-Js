@@ -22,7 +22,7 @@ export default async function Page({ params }) {
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         {res.item.map((item) => (
-          <Link  href={`/item/${item.name}`} key={item.id}>
+          <Link  href={`http://shop-savvvy.vercel.app/item/${item.name}`} key={item.id}>
             <div className="border border-gray-300 p-4">
               <img className="h-[16rem] w-[16rem]" src={item.img} alt="" />
               <div className="data py-4 space-y-2 w-full flex flex-col items-start justify-start ">
