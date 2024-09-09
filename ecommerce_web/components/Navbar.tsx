@@ -28,11 +28,11 @@ export default function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100  border-black  z-[1] mt-3 w-52 p-2 shadow-white shadow-sm"
           >
-            <li>
-              <Link href={"/contact"}>Home</Link>
+            <li >
+              <Link  href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/women"}>Women</Link>
+              <Link href={""}>Categories</Link>
               <ul className="p-2">
                 <li>
                   <Link href={"/tops"}>Tops</Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
           </li>
           <li>
             <details className="z-[100]">
-              <summary>Women</summary>
+              <summary>Categories</summary>
               <ul className="p-2 rounded-none">
                 <li>
                   <Link className="rounded-none" href={"/tops"}>

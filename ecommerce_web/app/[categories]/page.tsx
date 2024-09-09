@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import {IoIosArrowBack} from "react-icons/io"
 
 export default async function Page({ params }) {
   const { categories } = params; // Destructure to get 'categories'
@@ -16,7 +17,8 @@ export default async function Page({ params }) {
 
   console.log("API Response:", res);
 
-  return (
+  return (<>
+  <Link  href={`/`} className="back lg:mt-7 bg  flex space-x-3 items-center"><IoIosArrowBack/> Back</Link>
     <div className="text-center flex flex-col items-center py-10 space-y-7 lg:px-[15%] px-[7%] p-4">
       <h1 className="lg:text-4xl text-2xl capitalize font-bold">
         {categories}
@@ -42,5 +44,6 @@ export default async function Page({ params }) {
 
       <p className="lg:text-base text-sm text-justify text-gray-500"></p>
     </div>
+        </>
   );
 }
