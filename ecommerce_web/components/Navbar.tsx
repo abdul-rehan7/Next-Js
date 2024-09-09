@@ -64,7 +64,7 @@ export default function Navbar() {
       {/* ================ DESKTOP VIEW ================ */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 py-0">
-          <li>
+          <li >
             <Link href={"/"}>Home</Link>
           </li>
           <li>
